@@ -1,0 +1,11 @@
+Name: Muhammad Naveed
+Student Number: 15509877
+
+Info on code:
+
+In my approach to tackle this problem, I created a Player class which stores the players name, proficiency, and minimum desired proficiency is requires.
+The next class I made was Agency, which consisted of a mens, womens, and teams array's. Mens and womens array stored Players, where as the teams array stored
+Team objects which i created using the Team class. The team class took in a man, a woman and calculated their satisfaction.
+
+I also created a steepest_ascent_algorithm module which implemented the steepest-ascent hill-climbing algorithm, and was then included in the agency class to
+compute a team with the max overall satisfaction (fitness). This module was made generic so can be used by others, for different problems.
